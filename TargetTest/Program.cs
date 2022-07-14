@@ -32,7 +32,6 @@ namespace TargetTest
                     Console.ReadKey();
                     Console.Clear();
 
-
                     Console.WriteLine("Questão 3 - Lógica próximo elemento");
                     Questao3();
                     Console.WriteLine();
@@ -145,6 +144,13 @@ namespace TargetTest
             {
                 Console.WriteLine("O Carro está mais perto de Ribeirão Preto");
             }
+
+            /* Cheguei a esse resultado somando a velocidade do carro com a velocidade do caminhão e dividindo pela distância
+             * armazenei na variável tempo, depois multipliquei a velocidade do carro pela variável tempo para saber a distância do carro,
+             * subtrai a velocidade do caminhão pela distância e após multipliquei pelo tempo para saber a distância do caminhão,
+             * por último multipliquei o resutado da distância do caminhão pelo tempo gasto no pedágio. 
+             * */
+
         }
 
 
